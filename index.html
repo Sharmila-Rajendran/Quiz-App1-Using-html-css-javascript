@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Quiz App</title>
+</head>
+<body>
+    <div class="section">
+        <h1>Quiz App</h1>
+        <div class="container">
+            <div class="questions">
+                <div class="question active" id="question1">
+                    <h2>In web design, what does CSS stand for?</h2>
+                    <div class="choice">
+                        <div class="option">
+                            <button class="opt optn1"  type="button" onclick="Incorrect(this)">A</button>
+                            <button class="ans answr1"  type="button" onclick="Incorrect(this)">Counter Strike: Source</button>
+                        </div>
+                        <div class="option">
+                            <button class="opt optn2" type="button" onclick="Incorrect(this)">B</button>
+                            <button class="ans answr2" type="button" onclick="Incorrect(this)">Corrective Style Sheet</button>
+                        </div>
+                        <div class="option">
+                            <button class="opt optn3"  type="button" onclick="Incorrect(this)">C</button>
+                            <button class="ans answr3"  type="button" onclick="Incorrect(this)">Computer Style Sheet</button>
+                        </div>
+                        <div class="option">
+                            <button class="opt optn4"  type="button" onclick="Correct(this)">D</button>
+                            <button class="ans answr4"  type="button" onclick="Correct(this)">Cascading Style Sheet</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="questions">
+                <div class="question" id="question2">
+                    <h2>Who is the primary author of HTML?</h2>
+                    <div class="choice">
+                        <div class="option">
+                            <button class="opt optn1"  type="button" onclick="Incorrect(this)">A</button>
+                            <button class="ans answr1"  type="button" onclick="Incorrect(this)">Brendan Eich</button>
+                        </div>
+                        <div class="option" >
+                            <button class="opt optn2"  type="button" onclick="Correct(this)">B</button>
+                            <button class="ans answr2"  type="button" onclick="Correct(this)">Tim Berners-Lee</button>
+                        </div>
+                        <div class="option" >
+                            <button class="opt optn3"  type="button" onclick="Incorrect(this)">C</button>
+                            <button class="ans answr3"  type="button" onclick="Incorrect(this)">Web Programmer</button>
+                        </div>
+                        <div class="option" >
+                            <button class="opt optn4"  type="button" onclick="Incorrect(this)">D</button>
+                            <button class="ans answr4"  type="button" onclick="Incorrect(this)">Google Inc</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="questions">
+                <div class="question" id="question3">
+                    <h2>Pick the odd out</h2>
+                    <div class="choice">
+                        <div class="option">
+                            <button class="opt optn1"  type="button" onclick="Incorrect(this)">A</button>
+                            <button class="ans answr1"  type="button" onclick="Incorrect(this)">Table</button>
+                        </div>
+                        <div class="option">
+                            <button class="opt optn2" type="button" onclick="Incorrect(this)">B</button>
+                            <button class="ans answr2"  type="button" onclick="Incorrect(this)">TR</button>
+                        </div>
+                        <div class="option" >
+                            <button class="opt optn3"  type="button" onclick="Incorrect(this)">C</button>
+                            <button class="ans answr3" type="button" onclick="Incorrect(this)">TD</button>
+                        </div>
+                        <div class="option">
+                            <button class="opt optn4"  type="button" onclick="Correct(this)">D</button>
+                            <button class="ans answr4"  type="button" onclick="Correct(this)">Form</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="questions">
+                <div class="question" id="question4">
+                    <h2>How many heading tags are supported by HTML?</h2>
+                    <div class="choice">
+                        <div class="option" >
+                            <button class="opt optn1"  type="button" onclick="Incorrect(this)">A</button>
+                            <button class="ans answr1"  type="button" onclick="Incorrect(this)">3</button>
+                        </div>
+                        <div class="option" >
+                            <button class="opt optn2"  type="button" onclick="Incorrect(this)">B</button>
+                            <button class="ans answr2"  type="button" onclick="Incorrect(this)">4</button>
+                        </div>
+                        <div class="option" >
+                            <button class="opt optn3" type="button" onclick="Incorrect(this)">C</button>
+                            <button class="ans answr3"  type="button" onclick="Incorrect(this)">5</button>
+                        </div>
+                        <div class="option" >
+                            <button class="opt optn4"  type="button" onclick="Correct(this)">D</button>
+                            <button class="ans answr4"  type="button" onclick="Correct(this)">6</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="questions">
+                <div class="question" id="question5">
+                    <h2>Which of the following is not the element associated with the HTML table layout?</h2>
+                    <div class="choice">
+                        <div class="option">
+                            <button class="opt optn1" type="button" onclick="Incorrect(this)">A</button>
+                            <button class="ans answr1"  type="button" onclick="Incorrect(this)">Alignment</button>
+                        </div>
+                        <div class="option">
+                            <button class="opt optn2" type="button" onclick="Correct(this)">B</button>
+                            <button class="ans answr2"  type="button" onclick="Correct(this)">color</button>
+                        </div>
+                        <div class="option" >
+                            <button class="opt optn3" type="button" onclick="Incorrect(this)">C</button>
+                            <button class="ans answr3" type="button" onclick="Incorrect(this)">size</button>
+                        </div>
+                        <div class="option">
+                            <button class="opt optn4"  type="button" onclick="Incorrect(this)">D</button>
+                            <button class="ans answr4"  type="button" onclick="Incorrect(this)">spanning</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="questions">
+                <div class="question" id="question6">
+                    <h2>Which one of the following also known as Conditional Expression?</h2>
+                    <div class="choice">
+                        <div class="option" >
+                            <button class="opt optn1"  type="button" onclick="Incorrect(this)">A</button>
+                            <button class="ans answr1"  type="button" onclick="Incorrect(this)">Alternative to if-else</button>
+                        </div>
+                        <div class="option" >
+                            <button class="opt optn2"  type="button" onclick="Incorrect(this)">B</button>
+                            <button class="ans answr2"  type="button" onclick="Incorrect(this)">Switch statement</button>
+                        </div>
+                        <div class="option" >
+                            <button class="opt optn3"  type="button" onclick="Incorrect(this)">C</button>
+                            <button class="ans answr3"  type="button" onclick="Incorrect(this)">If-then-else statement</button>
+                        </div>
+                        <div class="option" >
+                            <button class="opt optn4" type="button" onclick="Correct(this)">D</button>
+                            <button class="ans answr4"  type="button" onclick="Correct(this)">immediate if</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="questions">
+                <div class="question" id="question7">
+                    <h2>Which element is used for or styling HTML5 layout?</h2>
+                    <div class="choice">
+                        <div class="option" >
+                            <button class="opt optn1"  type="button" onclick="Correct(this)">A</button>
+                            <button class="ans answr1"  type="button" onclick="Correct(this)">CSS</button>
+                        </div>
+                        <div class="option" >
+                            <button class="opt optn2"  type="button" onclick="Incorrect(this)">B</button>
+                            <button class="ans answr2" type="button" onclick="Incorrect(this)">Javascript</button>
+                        </div>
+                        <div class="option" >
+                            <button class="opt optn3"  type="button" onclick="Incorrect(this)">C</button>
+                            <button class="ans answr3"  type="button" onclick="Incorrect(this)">Php</button>
+                        </div>
+                        <div class="option" >
+                            <button class="opt optn4"  type="button" onclick="Incorrect(this)">D</button>
+                            <button class="ans answr4"  type="button" onclick="Incorrect(this)">JQuery</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="questions">
+                <div class="question" id="question8">
+                    <h2>Which attribute is not essential under iframe?</h2>
+                    <div class="choice">
+                        <div class="option" >
+                            <button class="opt optn1"  type="button" onclick="Correct(this)">A</button>
+                            <button class="ans answr1" type="button" onclick="Correct(this)"> frameborder</button>
+                        </div>
+                        <div class="option" >
+                            <button class="opt optn2"  type="button" onclick="Incorrect(this)">B</button>
+                            <button class="ans answr2" type="button" onclick="Incorrect(this)">width</button>
+                        </div>
+                        <div class="option" >
+                            <button class="opt optn3"  type="button" onclick="Incorrect(this)">C</button>
+                            <button class="ans answr3" type="button" onclick="Incorrect(this)">height</button>
+                        </div>
+                        <div class="option" >
+                            <button class="opt optn4"  type="button" onclick="Incorrect(this)">D</button>
+                            <button class="ans answr4"  type="button" onclick="Incorrect(this)">src</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="questions">
+                <div class="question" id="question9">
+                    <h2>In how many ways can CSS be written in?</h2>
+                    <div class="choice">
+                        <div class="option" >
+                            <button class="opt optn1"  type="button" onclick="Incorrect(this)">A</button>
+                            <button class="ans answr1" type="button" onclick="Incorrect(this)">1</button>
+                        </div>
+                        <div class="option" >
+                            <button class="opt optn2"  type="button" onclick="Incorrect(this)">B</button>
+                            <button class="ans answr2"  type="button" onclick="Incorrect(this)">2</button>
+                        </div>
+                        <div class="option" >
+                            <button class="opt optn3" type="button" onclick="Correct(this)">C</button>
+                            <button class="ans answr3" type="button" onclick="Correct(this)">3</button>
+                        </div>
+                        <div class="option" >
+                            <button class="opt optn4"  type="button" onclick="Incorrect(this)">D</button>
+                            <button class="ans answr4"  type="button" onclick="Incorrect(this)">4</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="questions">
+                <div class="question" id="question10">
+                    <h2>Can negative values be allowed in padding property?</h2>
+                    <div class="choice">
+                        <div class="option" >
+                            <button class="opt optn1"  type="button" onclick="Incorrect(this)">A</button>
+                            <button class="ans answr1"  type="button" onclick="Incorrect(this)">Yes</button>
+                        </div>
+                        <div class="option" >
+                            <button class="opt optn2"  type="button" onclick="Correct(this)">B</button>
+                            <button class="ans answr2"  type="button" onclick="Correct(this)">No</button>
+                        </div>
+                        <div class="option" >
+                            <button class="opt optn3"  type="button" onclick="Incorrect(this)">C</button>
+                            <button class="ans answr3" type="button" onclick="Incorrect(this)">Depends on property</button>
+                        </div>
+                        <div class="option" >
+                            <button class="opt optn4"  type="button" onclick="Incorrect(this)">D</button>
+                            <button class="ans answr4"  type="button" onclick="Incorrect(this)">None of the above</button>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+            <div class="butrow">
+                <button class="submit" onclick="submit()">Submit</button>
+                <button class="reset" onclick="reset()">Reset</button>
+                <button class="next" onclick="next()">Next</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
